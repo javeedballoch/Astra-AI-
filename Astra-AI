@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noor AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="app">
+    <header>
+      <div class="logo">🤖</div>
+      <div>
+        <h1>Noor AI</h1>
+        <p>AI Chat Assistant</p>
+      </div>
+    </header>
+
+    <div id="chatBox" class="chat-box">
+      <div class="message bot">
+        Hello! 👋 I am <b>Noor AI</b>. How can I help you?
+      </div>
+    </div>
+
+    <div class="input-area">
+      <input
+        type="text"
+        id="userInput"
+        placeholder="Ask Noor AI anything..."
+        autocomplete="off"
+      >
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
